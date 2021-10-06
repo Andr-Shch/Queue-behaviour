@@ -1,5 +1,5 @@
 ##Homework JS1
-<a href="https://reacrivechatapp.netlify.app/" target="blank">
+<a href="https://loving-visvesvaraya-5e2565.netlify.app/" target="blank">
 <img src="interface.PNG" />
 </a>
 
@@ -21,4 +21,4 @@ Let me share the features
 ## 🛠️ Run project
 
 **Download folder public, open index.html with Live Server**
- ***Check deployed  [version](https://reacrivechatapp.netlify.app/)**
+ ***Check deployed  [version](https://loving-visvesvaraya-5e2565.netlify.app/)**
