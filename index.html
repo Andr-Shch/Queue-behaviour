@@ -9,17 +9,24 @@
     <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
-    <aside class="create-queue-item">
-    <form>      
+    <main class="main">
+    <form id="form" class="create-queue-item">      
+        <textarea name="text" class="create-queue-item__content" placeholder="Create task" required  ></textarea>
         
-        <textarea name="text" class="create-queue-item__content" placeholder="Content"></textarea>
         <input type="submit" value="Add item"/>
       </form>
-    </aside>
-    <main>
+      <div class="stack">
+          <h1>Stack</h1>
+      </div>
+      <div class="start-task">
+         
+        <input id="startBtn" type="submit" value="start task"/>
+      </div>
+    </main>
+    <footer>
         <h1>Queue</h1>
        <div class="queue"></div>
-    </main>
+    </footer>
 
 
 

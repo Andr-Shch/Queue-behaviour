@@ -7,6 +7,10 @@
   body {
       background: #1f253d;
   }
+  .main{
+      display: flex;
+      height: 60vh;
+  }
   .create-queue-item{
       height: 180px;
       width: 300px;
@@ -42,12 +46,26 @@
     font-weight:700;
   }
   [type="submit"]:hover { background:#CC4949; }
+   
+  .stack{
+    border:2px solid #CC6666;
+    margin-left:  10px;
+    border-radius:5px;
+    width: 50vw;
+  }
+
+ .start-task{
+     padding: 5px;
+     width: 300px;
+ }
+
 
    
   .queue{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-    grid-gap:2rem;
+   
+                display: flex;
+                overflow: auto;
+                scroll-behavior: smooth;
       width: 100%;
       border:2px solid #CC6666;
       border-radius: 5px;
@@ -56,16 +74,27 @@
     
   }
   .queue__item{
+      display: flex;
+      justify-content: center;
+      align-items: center;
       background-color: #CC4949;
-      width: 100px;
+      min-width: 100px;
+      max-width: 110px;
       height: 90px;
       margin: auto 5px;
       text-align: center;
-      text-overflow: e;
-      padding: auto 5px;
+      text-overflow: unset ;
+      padding:  5px;
       color:rgb(212, 179, 179);
   }
   h1{
       text-align: center;
       color:rgb(212, 179, 179);
   }
+  ::-webkit-scrollbar {
+    width: 0;  
+    background: transparent;  
+}
+  ::-webkit-scrollbar-thumb {
+    background: #958ad3;
+}
