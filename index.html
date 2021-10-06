@@ -11,12 +11,13 @@
 <body>
     <main class="main">
     <form id="form" class="create-queue-item">      
-        <textarea name="text" class="create-queue-item__content" placeholder="Create task" required  ></textarea>
+        <textarea title="up to 15 characters" name="text" class="create-queue-item__content" placeholder="Create task" required maxlength="30" ></textarea>
         
         <input type="submit" value="Add item"/>
       </form>
       <div class="stack">
           <h1>Stack</h1>
+          <div class="stack__field"></div>
       </div>
       <div class="start-task">
          

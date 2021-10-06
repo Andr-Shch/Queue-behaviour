@@ -69,7 +69,7 @@
       width: 100%;
       border:2px solid #CC6666;
       border-radius: 5px;
-      min-height: 100px;
+      min-height: 150px;
       padding: 5px;
     
   }
@@ -80,7 +80,7 @@
       background-color: #CC4949;
       min-width: 100px;
       max-width: 110px;
-      height: 90px;
+      height: 100px;
       margin: auto 5px;
       text-align: center;
       text-overflow: unset ;
@@ -97,4 +97,18 @@
 }
   ::-webkit-scrollbar-thumb {
     background: #958ad3;
+}
+.stack__field{
+ display: flex;
+ flex-direction: column-reverse;
+ align-items: center;
+ width: 100%;
+}
+.stack-field__item{
+text-align: center;
+ background-color: tomato;
+ height: auto;
+ width: 60%;
+ border-radius: 10px;
+ margin: 5px;
 }
