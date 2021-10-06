@@ -1,0 +1,114 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;  
+  }
+  
+  body {
+      background: #1f253d;
+  }
+  .main{
+      display: flex;
+      height: 60vh;
+  }
+  .create-queue-item{
+      height: 180px;
+      width: 300px;
+  }
+  .create-queue-item__content {
+    color:rgb(212, 179, 179);
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border:2px solid #CC6666;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 10px;
+    width:100%;
+    outline:0;
+  }
+  [type="submit"] {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    width: 100%;
+    background:#CC6666;
+    border-radius:5px;
+    border:0;
+    cursor:pointer;
+    color:white;
+    font-size:24px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: all 0.3s;
+    margin-top:-4px;
+    font-weight:700;
+  }
+  [type="submit"]:hover { background:#CC4949; }
+   
+  .stack{
+    border:2px solid #CC6666;
+    margin-left:  10px;
+    border-radius:5px;
+    width: 50vw;
+  }
+
+ .start-task{
+     padding: 5px;
+     width: 300px;
+ }
+
+
+   
+  .queue{
+   
+                display: flex;
+                overflow: auto;
+                scroll-behavior: smooth;
+      width: 100%;
+      border:2px solid #CC6666;
+      border-radius: 5px;
+      min-height: 150px;
+      padding: 5px;
+    
+  }
+  .queue__item{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #CC4949;
+      min-width: 100px;
+      max-width: 110px;
+      height: 100px;
+      margin: auto 5px;
+      text-align: center;
+      text-overflow: unset ;
+      padding:  5px;
+      color:rgb(212, 179, 179);
+  }
+  h1{
+      text-align: center;
+      color:rgb(212, 179, 179);
+  }
+  ::-webkit-scrollbar {
+    width: 0;  
+    background: transparent;  
+}
+  ::-webkit-scrollbar-thumb {
+    background: #958ad3;
+}
+.stack__field{
+ display: flex;
+ flex-direction: column-reverse;
+ align-items: center;
+ width: 100%;
+}
+.stack-field__item{
+text-align: center;
+ background-color: tomato;
+ height: auto;
+ width: 60%;
+ border-radius: 10px;
+ margin: 5px;
+}
